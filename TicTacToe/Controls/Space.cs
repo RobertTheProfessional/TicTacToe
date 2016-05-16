@@ -29,7 +29,7 @@ namespace TicTacToe.Controls
 					this.Text = owner == 'E' ? "" : value.ToString();
 
 					// Diasble the ability to click this space
-					this.Enabled = false;
+					this.Enabled = owner == 'E' ? true : false;
 					
 				}
 			}

@@ -97,7 +97,7 @@ namespace TicTacToe
 		}
 
 		/// <summary>
-		/// If set, show the main menu once the game is closed
+		/// Show the main menu (if set) once the game is closed
 		/// </summary>
 		/// <param name="sender">Game Form control</param>
 		/// <param name="e">Event Argument</param>

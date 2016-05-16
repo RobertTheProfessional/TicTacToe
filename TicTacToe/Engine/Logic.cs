@@ -9,6 +9,10 @@ namespace TicTacToe.Engine
 	public class Logic
 	{
 		private readonly Board board;
+
+		/// <summary>
+		/// Player to make the next move.
+		/// </summary>
 		public Char CurrentPlayer { get; private set; }
 
 		public Logic()
