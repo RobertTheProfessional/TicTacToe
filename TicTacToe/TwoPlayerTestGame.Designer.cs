@@ -1,6 +1,6 @@
 ﻿namespace TicTacToe
 {
-	partial class Game
+	partial class TwoPlayerTestGame
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -34,15 +34,15 @@
 			this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.statusStrip1 = new System.Windows.Forms.StatusStrip();
 			this.boardPanel = new System.Windows.Forms.Panel();
-			this.bottomRightSpace = new TicTacToe.Engine.Space();
-			this.topLeftSpace = new TicTacToe.Engine.Space();
-			this.topCenterSpace = new TicTacToe.Engine.Space();
-			this.bottomCenterSpace = new TicTacToe.Engine.Space();
-			this.bottomLeftSpace = new TicTacToe.Engine.Space();
-			this.topRightSpace = new TicTacToe.Engine.Space();
-			this.middleLeftSpace = new TicTacToe.Engine.Space();
-			this.middleRightSpace = new TicTacToe.Engine.Space();
-			this.middleCenterSpace = new TicTacToe.Engine.Space();
+			this.bottomRightSpace = new TicTacToe.Controls.Space();
+			this.topLeftSpace = new TicTacToe.Controls.Space();
+			this.topCenterSpace = new TicTacToe.Controls.Space();
+			this.bottomCenterSpace = new TicTacToe.Controls.Space();
+			this.bottomLeftSpace = new TicTacToe.Controls.Space();
+			this.topRightSpace = new TicTacToe.Controls.Space();
+			this.middleLeftSpace = new TicTacToe.Controls.Space();
+			this.middleRightSpace = new TicTacToe.Controls.Space();
+			this.middleCenterSpace = new TicTacToe.Controls.Space();
 			this.MenuStrip.SuspendLayout();
 			this.boardPanel.SuspendLayout();
 			this.SuspendLayout();
@@ -256,18 +256,18 @@
 
 		#endregion
 
-		private Engine.Space topLeftSpace;
+		private Controls.Space topLeftSpace;
 		private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
 		private System.Windows.Forms.StatusStrip statusStrip1;
-		private Engine.Space topCenterSpace;
-		private Engine.Space topRightSpace;
-		private Engine.Space middleLeftSpace;
-		private Engine.Space middleCenterSpace;
-		private Engine.Space middleRightSpace;
-		private Engine.Space bottomCenterSpace;
-		private Engine.Space bottomLeftSpace;
-		private Engine.Space bottomRightSpace;
+		private Controls.Space topCenterSpace;
+		private Controls.Space topRightSpace;
+		private Controls.Space middleLeftSpace;
+		private Controls.Space middleCenterSpace;
+		private Controls.Space middleRightSpace;
+		private Controls.Space bottomCenterSpace;
+		private Controls.Space bottomLeftSpace;
+		private Controls.Space bottomRightSpace;
 		private System.Windows.Forms.Panel boardPanel;
 		private System.Windows.Forms.MenuStrip MenuStrip;
 		private System.Windows.Forms.ToolStripMenuItem mainMenuToolStripMenuItem;

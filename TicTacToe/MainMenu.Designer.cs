@@ -30,7 +30,7 @@
 		{
 			this.label1 = new System.Windows.Forms.Label();
 			this.panel1 = new System.Windows.Forms.Panel();
-			this.StartSoloGameBtn = new System.Windows.Forms.Button();
+			this.StartTestGameBtn = new System.Windows.Forms.Button();
 			this.panel1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -46,22 +46,24 @@
 			// 
 			// panel1
 			// 
-			this.panel1.Controls.Add(this.StartSoloGameBtn);
+			this.panel1.Controls.Add(this.StartTestGameBtn);
 			this.panel1.Controls.Add(this.label1);
 			this.panel1.Location = new System.Drawing.Point(12, 12);
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(371, 252);
 			this.panel1.TabIndex = 1;
 			// 
-			// StartSoloGameBtn
+			// StartTestGameBtn
 			// 
-			this.StartSoloGameBtn.Location = new System.Drawing.Point(107, 117);
-			this.StartSoloGameBtn.Name = "StartSoloGameBtn";
-			this.StartSoloGameBtn.Size = new System.Drawing.Size(181, 42);
-			this.StartSoloGameBtn.TabIndex = 1;
-			this.StartSoloGameBtn.Text = "Start a Solo Game";
-			this.StartSoloGameBtn.UseVisualStyleBackColor = true;
-			this.StartSoloGameBtn.Click += new System.EventHandler(this.StartSoloGameBtn_Click);
+			this.StartTestGameBtn.Enabled = false;
+			this.StartTestGameBtn.Location = new System.Drawing.Point(107, 117);
+			this.StartTestGameBtn.Name = "StartTestGameBtn";
+			this.StartTestGameBtn.Size = new System.Drawing.Size(181, 42);
+			this.StartTestGameBtn.TabIndex = 1;
+			this.StartTestGameBtn.Text = "Begin Testing";
+			this.StartTestGameBtn.UseVisualStyleBackColor = true;
+			this.StartTestGameBtn.Visible = false;
+			this.StartTestGameBtn.Click += new System.EventHandler(this.StartTestGameBtn_Click);
 			// 
 			// MainMenu
 			// 
@@ -81,7 +83,7 @@
 
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Panel panel1;
-		private System.Windows.Forms.Button StartSoloGameBtn;
+		private System.Windows.Forms.Button StartTestGameBtn;
 	}
 }
 

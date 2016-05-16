@@ -50,14 +50,14 @@
     <Compile Include="Engine\Board.cs" />
     <Compile Include="Engine\Logic.cs" />
     <Compile Include="Engine\Player.cs" />
-    <Compile Include="Engine\Space.cs">
+    <Compile Include="Controls\Space.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Game.cs">
+    <Compile Include="TwoPlayerTestGame.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Game.Designer.cs">
-      <DependentUpon>Game.cs</DependentUpon>
+    <Compile Include="TwoPlayerTestGame.Designer.cs">
+      <DependentUpon>TwoPlayerTestGame.cs</DependentUpon>
     </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
@@ -67,8 +67,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Game.resx">
-      <DependentUpon>Game.cs</DependentUpon>
+    <EmbeddedResource Include="TwoPlayerTestGame.resx">
+      <DependentUpon>TwoPlayerTestGame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>

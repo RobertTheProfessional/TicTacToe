@@ -84,7 +84,7 @@ namespace TicTacToe.Engine
 		public Int32 GetBoard() { return grid; }
 
 		/// <summary>
-		/// Get the array representation of the grid
+		/// Get the array representation of the grid.
 		/// </summary>
 		/// <returns>Two-dimensional array of the grid</returns>
 		public Char[,] Get2dBoard()
@@ -137,7 +137,7 @@ namespace TicTacToe.Engine
 		}
 
 		/// <summary>
-		/// Unmark all the spaces on the board
+		/// Unmark all the spaces on the board.
 		/// </summary>
 		public void ClearBoard()
 		{

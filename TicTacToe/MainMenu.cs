@@ -12,17 +12,24 @@ namespace TicTacToe
 {
 	public partial class MainMenu : Form
 	{
-		private Game game = null;
+		private TwoPlayerTestGame game = null;
 
 		public MainMenu()
 		{
 			InitializeComponent();
+
+			// If environment is debug,
+			// show debug options
+			#if DEBUG
+			this.StartTestGameBtn.Enabled = true;
+			this.StartTestGameBtn.Visible = true;
+			#endif
 		}
 
-		private void StartSoloGameBtn_Click(object sender, EventArgs e)
+		private void StartTestGameBtn_Click(object sender, EventArgs e)
 		{
 			// Create a new game
-			game = new Game(this);
+			game = new TwoPlayerTestGame(this);
 
 			// Hide the main menu
 			this.Hide();
